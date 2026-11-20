@@ -22,7 +22,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
+      children:  [
         SelectableButton(),
         SizedBox(height: 8),
 
@@ -71,8 +71,8 @@ class _SelectableButtonState extends State<SelectableButton> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 300,
-      height: 70,
+      width: 400,
+      height: 100,
       child: ElevatedButton(
         onPressed: () {
           setState(() {
